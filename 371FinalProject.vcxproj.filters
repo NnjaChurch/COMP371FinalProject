@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{f46dfb57-3376-4a67-b33a-146f394aad36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Handlers">
+      <UniqueIdentifier>{455ab234-bb6e-42d2-bf92-dba8cebe41b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handlers">
+      <UniqueIdentifier>{7a1023cd-2fb8-4e1e-891d-a4acfa3c67e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{bf357c9e-bc63-406f-96cc-c338f2a01dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cameras">
+      <UniqueIdentifier>{bffd3378-2f2b-470e-9aaa-8699eea507aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cameras">
+      <UniqueIdentifier>{b5e9d43c-ed39-4dfc-b5f3-a0b36cc701e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lights">
+      <UniqueIdentifier>{988fb6eb-732a-4953-9bb9-f0749d21d222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights">
+      <UniqueIdentifier>{a0e49d7b-cbb9-4ff2-ab12-52c22d294ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{516988fa-6803-426d-96b0-fee9c843da9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{df6b86ba-647b-41fa-b5bd-43725216ec37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Light">
+      <UniqueIdentifier>{2c012803-a866-47f5-bbab-e32de132b73e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\Mesh.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Constants.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\RenderHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Shader.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\EventHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Camera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Cube.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Grid.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\InputHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\TPCamera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\BumperCar.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Cylinder.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\QuSphere.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\World.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\FPCamera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Light.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\PointLight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Material.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\SpotLight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\World.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grid.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cube.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TPCamera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cylinder.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QuSphere.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BumperCar.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FPCamera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Light.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PointLight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpotLight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\fragmentLShader.glsl">
+      <Filter>Resource Files\Shaders\Light</Filter>
+    </None>
+    <None Include="shaders\vertexLShader.glsl">
+      <Filter>Resource Files\Shaders\Light</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\blackRubber_diffuse.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\blackRubber_specular.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\blueTile_diffuse.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\blueTile_specular.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\purpleMetal.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\purpleMetal_specular.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
